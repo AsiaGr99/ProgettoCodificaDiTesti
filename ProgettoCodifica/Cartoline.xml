@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE teiCorpus SYSTEM "tei_all.dtd">
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+
+<teiCorpus version="3.3.0" xmlns="http://www.tei-c.org/ns/1.0">
+    <!-- HEADER DEL CORPUS -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Codifica di cartoline storiche</title>
+                
+                <respStmt>
+                    <resp>Trascrizione digitale a cura di: </resp>
+                        <name ref="#SL">Sara Lelli </name>
+                        <name ref="#AG">Asia Gronchi </name>
+                        <name ref="#GF">Giada Ferradini</name>
+                </respStmt>
+
+                <respStmt>
+                    <resp>Ente di Appartenenza:</resp>
+                    <name type="comune" xml:id="SP">Comune di La Spezia</name>
+                </respStmt>
+            </titleStmt>
+
+            <editionStmt> 
+                <edition>Studentesse del corso di Informatica Umanistica Triennale, Università di Pisa 
+                    <date when="2021-05">Maggio 2021</date>
+                </edition>
+                <respStmt>
+                    <resp>encoding by:</resp>
+                    <name ref="#SL">Sara Lelli</name>
+                    <name ref="#AG">Asia Gronchi</name>
+                    <name ref="#GF">Giada Ferradini</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Compilato da: </resp>
+                    <name ref="#TC">Tommaso Castagneto</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico:</resp>
+                    <name ref="#GP">Paolicchi G.</name>
+                    <name ref="#ES">Salvatori E.</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile</resp>
+                    <name ref="#ER">Ratti E.</name>
+                </respStmt>
+            </editionStmt>
+
+            <publicationStmt>
+                <publisher>Università di Pisa</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability status="restricted"><p>Accessibile per ricerche accademiche</p></availability>
+                <date when="2021">2021</date>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country key="IT">Italy</country>
+                        <settlement type="city">La Spezia</settlement>
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei
+                            cimeli garibaldini e della Prima Guerra Mondiale</repository>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+     <!--CODIFICA PRIMA CARTOLINA - 014-->
+    <TEI xml:id="cart14">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title type="main">Edizione digitale di "Coppia di innamorati"</title>
+
+                    <respStmt>
+                        <resp>Trascrizione digitale a cura di:</resp>
+                            <name ref="#SL">Sara Lelli</name>
+                            <name ref="#AG">Asia Gronchi</name>
+                            <name ref="#GF">Giada Ferradini</name>
+                    </respStmt>
+
+                    <respStmt>
+                        <resp>Ente di Appartenenza:</resp>
+                        <name type="comune" ref="#SP">Comune di La Spezia</name>
+                    </respStmt>
+                </titleStmt>
+
+                <editionStmt>
+                    <edition>Studentesse del corso di Informatica Umanistica Triennale, Università di Pisa 
+                        <date when="2021-05">Maggio 2021</date>
+                    </edition>
+                    <respStmt>
+                        <resp>encoding by:</resp>
+                        <name ref="#SL">Sara Lelli</name>
+                        <name ref="#AG">Asia Gronchi</name>
+                        <name ref="#GF">Giada Ferradini</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Compilato da:</resp>
+                        <name ref="#TC">Tommaso Castagneto</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Responsabile scientifico:</resp>
+                        <name ref="#GP">Paolicchi G.</name>
+                        <name ref="#ES">Salvatori E.</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Funzionario responsabile</resp>
+                        <name ref="#ER">Ratti E.</name>
+                    </respStmt>
+                </editionStmt>
+
+                <publicationStmt>
+                    <publisher>Università di Pisa</publisher>
+                    <pubPlace>Pisa</pubPlace>
+                    <availability status="restricted"><p>Accessibile per ricerche accademiche</p></availability>
+                    <date when="2021">2021</date>
+                </publicationStmt>
+
+                <sourceDesc>
+                    <bibl>
+                        <title>Coppia a venezia</title>
+                    </bibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <country key="IT">Italia</country>
+                            <settlement>La Spezia (SP)</settlement>
+                            <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei
+                                cimeli garibaldini e della Prima Guerra Mondiale</repository>
+                            <idno>7694-014_001/002</idno>
+                        </msIdentifier>
+
+                        <msContents>
+                            <summary>Cartolina artistica facente parte di un album collezionato da Oliva Turtura durante gli anni della Grande Guerra. 
+                                La maggior parte delle cartoline sono spedite da Giovanni Coliola a Oliva Turtura, sua fidanzata.</summary>
+                            <textLang>Italiano</textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <objectType>Cartolina</objectType>
+                                        <material>Carta</material>
+                                        <dimensions unit="cm">
+                                            <height>9</height>
+                                            <width>14</width>
+                                        </dimensions>
+                                    </support>
+                                    <condition>Buono</condition>
+                                </supportDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote scribe="catalogatore" medium="pencil" scope="minor">
+                                    <p>In alto a destra della cartolina è riportato il numero <num value="14">14</num>
+                                        usato per la catalogazione</p>
+                                </handNote>
+                                <handNote scribe="Giuseppe" medium="black-ink" scope="major">
+                                    <p>La prima mano di questa cartolina è di Giuseppe</p>
+                                </handNote>
+                                <handNote scribe="tipografo" medium="black-ink" scope="minor">
+                                    <p>All'interno della cartolina è riportata una stampa</p>
+                                </handNote>
+                            </handDesc>
+                        </physDesc>
+                    </msDesc>
+
+                    <listPerson>
+                        <person>
+                            <persName ref="#G">
+                                <forename>Giuseppe</forename>
+                            </persName>
+                            <sex>F</sex>
+                        </person>
+                        <person>
+                            <persName ref="#GC">
+                                <forename>Giovanni</forename>
+                                <surname>Coliola</surname>
+                            </persName>
+                            <sex>M</sex>
+                        </person>
+                    </listPerson>
+                    <listPlace>
+                        <place>
+                            <placeName>Venezia</placeName>
+                            <settlement type="località">Città</settlement>
+                            <district type="provincia">VE</district> 
+                            <country key="IT">IT</country>
+                        </place>
+                    </listPlace>
+                </sourceDesc>
+            </fileDesc>
+            
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="received">
+                        <persName>Giovanni Coliola</persName>
+                    </correspAction>
+                    <correspAction type="sent">
+                        <persName>Giuseppe</persName>
+                        <date when="1918">1918</date>
+                    </correspAction>
+                </correspDesc>
+                <langUsage>
+                    <language ident="it-IT" usage="100">Italiano</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text type="cartolina"  xml:lang="it">
+            <body>
+                <div type="retro">
+                    <div type="codice">
+                        <p>
+                            <lb xml:id="num14_1" facs="#riganum14_1"/>
+                            <num type="cardinal">14</num>
+                        </p>
+                    </div>
+                    <div type="francobollo_timbro" facs="#rigastamp14_1">
+                        <p>
+                            <stamp type="postage_stamp">
+                                <note>Francobollo del Regno d'Italia da 5 centesimi delle Poste
+                                    Italiane nel 1906. Rappresenta il volto di profilo di Vittorio Emanuele III.</note>
+                            </stamp>
+                            <stamp type="postmark">
+                                <mentioned> 
+                                    <unclear reason="illegible">[...]</unclear>
+                                </mentioned>
+                            </stamp>
+                        </p>
+                    </div>
+                    <div type="testoMessaggio">
+                        <lb /><opener facs="#rigadata14">
+                            <unclear reason="illegible" />
+                            <dateline>
+                                <date when="1918-3-14">[...] 14 marzo <choice><abbr>918</abbr><expan>1918</expan></choice></date>
+                            </dateline>
+                        </opener>
+                        <p>
+                            <address>
+                                <lb xml:id="addr14_1" facs="#rigaddr14_1"/>
+                                <addrLine>
+                                    Tenente <persName ref="#GC">Giovanni</persName>
+                                </addrLine>
+                                <lb xml:id="addr14_2" facs="#rigaddr14_2" />
+                                <addrLine>
+                                    <persName ref="#GC">Battista Coliola</persName>
+                                </addrLine>
+                                <lb xml:id="addr14_3" facs="#rigaddr14_3" />
+                                <addrLine>
+                                    <num type="ordinal" value="36">36° </num><choice><abbr>Fant. </abbr><expan>Fanteria</expan></choice> Distaccamento
+                                </addrLine>
+                                <lb xml:id="addr14_4" facs="#rigaddr14_4" />
+                                <addrLine>
+                                    <placeName><hi rend="underline">Formigine</hi></placeName>
+                                </addrLine>
+                                <lb xml:id="addr14_5" facs="#rigaddr14_5" />
+                                <addrLine>
+                                    (<placeName>Modena</placeName>)
+                                </addrLine>
+                            </address>
+                        </p>
+                        <closer>
+                            <lb xml:id="closer14_1" facs="#rigacloser14_1"/><salute>Affettuosi saluti</salute>
+                            <lb xml:id="closer14_2" facs="#rigacloser14_2"/><signed><persName rend="underline" ref="#G">Giuseppe <unclear resp="#GF" cert="medium" /> D[...]</persName></signed>
+                        </closer>
+                    </div>
+                    <div type="codStampa">
+                        <p>
+                            <lb xml:id="numFinale14_1" facs="#riganumFinale14_1"/><num>3069/4</num>
+                        </p>
+                    </div>
+                    <div type="stampe_cartolina">
+                        <ab type="stampe" xml:id="stampafrasi14_1">
+                            <s facs="#rigastampafrasi14_1" xml:lang="it"><choice><abbr>Propr. </abbr><expan>Proprietà </expan></choice>
+                            artistica riservata - <placeName>Milano</placeName>.</s>
+                        </ab>
+                    </div>
+                </div>
+            </body>
+        </text>
+        <facsimile>
+            <surfaceGrp>
+                <surface xml:id="fronte14">
+                    <graphic url='Cartoline/cartolina014.jpg' width='1060px' height='1663px' />
+                    <!--<note>
+                        Il fronte della cartolina è assente
+                    </note>-->
+                </surface> 
+                <surface xml:id="retro14">
+                    <graphic url='Cartoline/cartolina014T.jpg' width='1643px' height='1057px' />
+                    <zone xml:id="riganum14_1" ulx="1056" uly="84" lrx="1158" lry="92" />
+                    <zone xml:id="rigastamp14_1" ulx="1223" uly="221" lrx="1567" lry="226" />
+                    <zone xml:id="rigaddr14_1" ulx="808" uly="443" lrx="1568" lry="447" />
+                    <zone xml:id="rigaddr14_2" ulx="747" uly="604" lrx="1516" lry="608" />
+                    <zone xml:id="rigaddr14_3" ulx="762" uly="717" lrx="1637" lry="725" />
+                    <zone xml:id="rigaddr14_4" ulx="979" uly="881" lrx="1577" lry="883" />
+                    <zone xml:id="rigaddr14_5" ulx="773" uly="962" lrx="1151" lry="973" /> 
+                    <zone xml:id="rigadata14" ulx="689" uly="32" lrx="694" lry="1048" />
+                    <zone xml:id="rigacloser14_1" ulx="503" uly="103" lrx="508" lry="904" />
+                    <zone xml:id="rigacloser14_2" ulx="289" uly="200" lrx="294" lry="1027" />
+                    <zone xml:id="rigastampafrasi14_1" ulx="47" uly="283" lrx="49" lry="775" />
+                    <zone xml:id="riganumFinale14_1" ulx="721" uly="979" lrx="783" lry="981" />
+                </surface>
+            </surfaceGrp>
+        </facsimile>
+    </TEI>
+
+    <!--CODIFICA SECONDA CARTOLINA - 023-->
+    <TEI xml:id="cart23">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title type="main"> Edizione digitale di "Donna e bambino (amorino) e lettere d'amore"</title>
+
+                    <respStmt>
+                        <resp>Trascrizione digitale a cura di:</resp>
+                            <name ref="#SL">Sara Lelli</name>
+                            <name ref="#AG">Asia Gronchi</name>
+                            <name ref="#GF">Giada Ferradini</name>
+                    </respStmt>
+
+                    <respStmt>
+                        <resp>Ente di Appartenenza:</resp>
+                        <name type="comune" ref="#SP">Comune di La Spezia</name>
+                    </respStmt>
+                </titleStmt>
+
+                <editionStmt>
+                    <edition>Studentesse del corso di Informatica Umanistica Triennale, Università di Pisa 
+                        <date when="2021-05">Maggio 2021</date>
+                    </edition>
+                    <respStmt>
+                        <resp>encoding by:</resp>
+                        <name ref="#SL">Sara Lelli</name>
+                        <name ref="#AG">Asia Gronchi</name>
+                        <name ref="#GF">Giada Ferradini</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Compilato da:</resp>
+                        <name ref="#TC">Tommaso Castagneto</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Responsabile scientifico:</resp>
+                        <name ref="#GP">Paolicchi G.</name>
+                        <name ref="#ES">Salvatori E.</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Funzionario responsabile</resp>
+                        <name ref="#ER">Ratti E.</name>
+                    </respStmt>
+                </editionStmt>
+
+                <publicationStmt>
+                    <publisher>Università di Pisa</publisher>
+                    <pubPlace>Pisa</pubPlace>
+                    <availability status="restricted"><p>Accessibile per ricerche accademiche</p></availability>
+                    <date when="2021">2021</date>
+                </publicationStmt>
+
+                <sourceDesc>
+                    <bibl>
+                        <title>Donna con amorino e lettere</title>
+                    </bibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <country key="IT">Italia</country>
+                            <settlement>La Spezia (SP)</settlement>
+                            <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei
+                                cimeli garibaldini e della Prima Guerra Mondiale</repository>
+                            <idno>7694-023_001/002</idno>
+                        </msIdentifier>
+
+                        <msContents>
+                            <summary>Cartolina artistica facente parte di un album collezionato da Oliva Turtura durante gli anni della Grande Guerra. 
+                                La maggior parte delle cartoline sono spedite da Giovanni Coliola a Oliva Turtura, sua fidanzata.</summary>
+                            <textLang>Italiano</textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <objectType>Cartolina</objectType>
+                                        <material>Carta</material>
+                                        <dimensions unit="cm">
+                                            <height>9</height>
+                                            <width>14</width>
+                                        </dimensions>
+                                    </support>
+                                    <condition>Buono</condition>
+                                </supportDesc>
+                            </objectDesc>
+                            <handDesc hands="3">
+                                <handNote scribe="catalogatore" medium="pencil" scope="minor">
+                                    <p>In alto a destra della cartolina è riportato il numero <num value="23">23</num>
+                                        usato per la catalogazione</p>
+                                </handNote>
+                                <handNote scribe="Giovanni" medium="black" scope="major">
+                                    <p>La prima mano di questa cartolina è di Giovanni</p>
+                                </handNote>
+                                <handNote scribe="tipografo" medium="brown-ink" scope="minor">
+                                    <p>All'interno della cartolina è riportata una stampa numerica </p>
+                                </handNote>
+                            </handDesc>
+                        </physDesc>
+                    </msDesc>
+
+                    <listPerson>
+                        <person>
+                            <persName ref="#OT">
+                                <forename>Oliva</forename>
+                                <surname>Turtura</surname>
+                            </persName>
+                            <sex>F</sex>
+                        </person>
+                        <person>
+                            <persName ref="#GC">
+                                <forename>Giovanni</forename>
+                                <surname>Coliola</surname>
+                            </persName>
+                            <sex>M</sex>
+                        </person>
+                        <relation name="engaged" mutual="#OT #P2" />
+                    </listPerson>
+                </sourceDesc>
+            </fileDesc>
+            
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName>Giovanni Coliola</persName>
+                        <date when="1916-12-07">7 Dicembre 1916</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName>Oliva Turtura</persName>
+                    </correspAction>
+                </correspDesc>
+                <langUsage>
+                    <language ident="it" usage="100">Italiano</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text type="cartolina"  xml:lang="it">
+            <body>
+                <div type="fronte">
+                    <figure xml:id="fig23">
+                        <graphic url="Cartoline/cartolina023.jpg"/>
+                        <head>Donna con amorino e lettere</head>
+                        <figDesc>Donna in compagnia di un amorino che le consegna delle lettere</figDesc>
+                    </figure>
+                </div>
+                <div type="retro">
+                    <div type="codice"> 
+                        <p>
+                            <lb xml:id="num23_1" facs="#riganum23_1" /><num type="cardinal">23</num>
+                        </p>
+                    </div>
+                    <div facs="#rigastamp23_1" type="francobollo_timbro">
+                        <p>
+                            <stamp type="postage_stamp">
+                                <note>Francobollo del Regno d'Italia da 5 centesimi delle Poste
+                                    Italiane nel 1906. Rappresenta il volto di profilo di Vittorio Emanuele III.</note>
+                            </stamp>
+                            <stamp type="postmark">
+                                <mentioned><unclear reason="illegible">[...] COMUNE [...]</unclear></mentioned>
+                            </stamp>
+                        </p>
+                    </div>
+                    <div type="testoMessaggio">
+                        <lb /><opener facs="#rigadata23">
+                            <dateline>
+                                li <date when="1916-12-7">7/12-1916</date>
+                            </dateline>
+                        </opener>
+                        <p>
+                            <address>
+                                <lb xml:id="addr23_1" facs="#rigaddr23_1"/>
+                                <addrLine>Alla <choice><abbr>Sig<unclear reason="ink blot" agent="ink">na </unclear></abbr>
+                                    <expan>Signorina </expan></choice> </addrLine>
+                                <lb xml:id="addr23_2" facs="#rigaddr23_2" />
+                                <addrLine>
+                                    <persName ref="#OT">Oliva Turtura</persName>
+                                </addrLine>
+                                <lb xml:id="addr23_3" facs="#rigaddr23_3" />
+                                <addrLine>Via Girolamo Ros<g>s</g>i 58</addrLine>
+                                <lb xml:id="addr23_4" facs="#rigaddr23_4" />
+                                <addrLine>
+                                    <placeName><hi rend="underline">Ravenna</hi></placeName>
+                                </addrLine>
+                            </address>
+                        </p>
+                        <closer>
+                        <lb xml:id="closer23_1" facs="#rigacloser23_1" /><signed><persName rend="underline" ref="#GC">Giovannino</persName></signed>
+                        </closer>
+                    </div>
+                    <div type="codStampa">
+                        <p>
+                            <lb xml:id="numFinale23_1" facs="#riganumFinale23_1"/><num>798-4</num>
+                        </p>
+                    </div>
+                </div>
+            </body>
+        </text>
+        <facsimile>
+            <surfaceGrp>
+                <surface xml:id="fronte23">
+                    <graphic url='Cartoline/cartolina023.jpg' width='1060px' height='1663px' />
+                </surface>
+                <surface xml:id="retro23">
+                    <graphic url='Cartoline/cartolina023T.jpg' width='1062px' height='1668px' />
+                    <zone xml:id="riganum23_1" ulx="916" uly="65" lrx="1067" lry="67" />
+                    <zone xml:id="rigastamp23_1" ulx="1175" uly="205" lrx="1576" lry="281" />
+                    <zone xml:id="rigaddr23_1" ulx="817" uly="275" lrx="1236" lry="310" />
+                    <zone xml:id="rigaddr23_2" ulx="816" uly="430" lrx="1523" lry="463" />
+                    <zone xml:id="rigaddr23_3" ulx="837" uly="557" lrx="1640" lry="620" />
+                    <zone xml:id="rigaddr23_4" ulx="892" uly="786" lrx="1605" lry="811" />
+                    <zone xml:id="rigadata23" ulx="722" uly="208" lrx="726" lry="691" />
+                    <zone xml:id="rigacloser23_1" ulx="360" uly="107" lrx="389" lry="981" />
+                    <zone xml:id="riganumFinale23_1" ulx="751" uly="1028" lrx="870" lry="1030" />
+                </surface>
+            </surfaceGrp>
+        </facsimile>
+    </TEI>
+
+    <!--CODIFICA TERZA CARTOLINA - 082-->
+    <TEI xml:id="cart82">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title type="main">Donna con in mano una rosa rossa</title>
+
+                    <respStmt>
+                        <resp>Trascrizione digitale a cura di:</resp>
+                            <name ref="#SL">Sara Lelli</name>
+                            <name ref="#AG">Asia Gronchi</name>
+                            <name ref="#GF">Giada Ferradini</name>
+                    </respStmt>
+
+                    <respStmt>
+                        <resp>Ente di Appartenenza:</resp>
+                        <name type="comune" ref="#SP">Comune di La Spezia</name>
+                    </respStmt>
+                </titleStmt>
+
+                <editionStmt>
+                    <edition>Studentesse del corso di Informatica Umanistica Triennale, Università di Pisa 
+                        <date when="2021-05">Maggio 2021</date>
+                    </edition>
+                    <respStmt>
+                        <resp>encoding by:</resp>
+                        <name ref="#SL">Sara Lelli</name>
+                        <name ref="#AG">Asia Gronchi</name>
+                        <name ref="#GF">Giada Ferradini</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Compilato da:</resp>
+                        <name ref="#TC">Tommaso Castagneto</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Responsabile scientifico:</resp>
+                        <name ref="#GP">Paolicchi G.</name>
+                        <name ref="#ES">Salvatori E.</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Funzionario responsabile</resp>
+                        <name ref="#ER">Ratti E.</name>
+                    </respStmt>
+                </editionStmt>
+
+                <publicationStmt>
+                    <publisher>Università di Pisa</publisher>
+                    <pubPlace>Pisa</pubPlace>
+                    <availability status="restricted"><p>Accessibile per ricerche accademiche</p></availability>
+                    <date when="2021">2021</date>
+                </publicationStmt>
+
+                <sourceDesc>
+                    <bibl>
+                        <title>La rosa rossa</title>
+                    </bibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <country key="IT">Italia</country>
+                            <settlement>La Spezia (SP)</settlement>
+                            <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei
+                                cimeli garibaldini e della Prima Guerra Mondiale</repository>
+                            <idno>7694-082_001/002</idno>
+                        </msIdentifier>
+
+                        <msContents>
+                            <summary>Cartolina artistica facente parte di un album collezionato da Oliva Turtura durante gli anni della Grande Guerra. 
+                                La maggior parte delle cartoline sono spedite da Giovanni Coliola a Oliva Turtura, sua fidanzata.</summary>
+                            <textLang>Italiano</textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <objectType>Cartolina</objectType>
+                                        <material>Carta</material>
+                                        <dimensions unit="cm">
+                                            <height>9</height>
+                                            <width>14</width>
+                                        </dimensions>
+                                    </support>
+                                    <condition>Buono</condition>
+                                </supportDesc>
+                            </objectDesc>
+                            <handDesc hands="3">
+                                <handNote scribe="catalogatore" medium="pencil" scope="minor">
+                                    <p>In alto a sinistra della cartolina è riportato il numero <num value="82">82</num>
+                                        usato per la catalogazione</p>
+                                </handNote>
+                                <handNote scribe="Giovanni" medium="black" scope="major">
+                                    <p>La prima mano di questa cartolina è di Giovanni</p>
+                                </handNote>
+                                <handNote scribe="tipografo" medium="red-ink" scope="minor">
+                                    <p>All'interno della cartolina è riportata una stampa</p>
+                                </handNote>
+                            </handDesc>
+                        </physDesc>
+                    </msDesc>
+
+                    <listPerson>
+                        <person>
+                            <persName ref="#OT"> 
+                                <forename>Oliva</forename>
+                                <surname>Turtura</surname>
+                            </persName>
+                            <sex>F</sex>
+                        </person>
+                        <person>
+                            <persName ref="#GC">
+                                <forename>Giovanni</forename>
+                                <surname>Coliola</surname>
+                            </persName>
+                            <sex>M</sex>
+                        </person>
+                        <relation name="engaged" mutual="#OT #P2" />
+                    </listPerson>
+                </sourceDesc>
+            </fileDesc>
+            
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName>Giovanni Coliola</persName>
+                        <date when="1917-06-09">9 Giugno 1917</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName>Oliva Turtura</persName>
+                    </correspAction>
+                </correspDesc>
+                <langUsage>
+                    <language ident="it-IT" usage="74">Italiano </language>
+                    <language ident="fr-FR" usage="13">Francese </language>
+                    <language ident="en-EN" usage="13">Inglese</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text type="cartolina"  xml:lang="it">
+            <body>
+                <div type="fronte">
+                <figure xml:id="fig82">   
+                    <graphic url="Cartoline/cartolina082.jpg" />
+                    <head>La rosa rossa</head>
+                    <figDesc>Immagine che rappresenta una donna che tiene tra le sue mani una rosa rossa</figDesc>
+                </figure>
+                </div>
+                <div type="retro">
+                    <div type="codice">
+                        <p>
+                            <lb xml:id="num82_1" facs="#riganum82_1"/>
+                            <num type="cardinal">82</num>
+                        </p>
+                    </div>
+                    <div type="francobollo_timbro" facs="#rigastamp82_1">
+                        <p>
+                            <stamp type="postage_stamp">
+                                <note>Francobollo del Regno d'Italia da 5 centesimi delle Poste
+                                    Italiane nel 1906. Rappresenta il volto di profilo di Vittorio Emanuele III.</note>
+                            </stamp>
+                            <stamp type="postmark">
+                                <mentioned> 
+                                    <unclear reason="illegible"><num type="cardinal">561</num>[...] FERROVIA [...]</unclear>
+                                </mentioned>
+                            </stamp>
+                        </p>
+                    </div>
+                    <div type="testoMessaggio">
+                        <lb /><opener facs="#rigadata82">
+                            <placeName>
+                                Modena
+                            </placeName>, 
+                            <dateline>
+                                li <date when="1917-6-5">5/6-1917</date>
+                            </dateline>
+                        </opener>
+                        <p>
+                            <address>
+                                <lb xml:id="addr82_1" facs="#rigaddr82_1"/>
+                                <addrLine><choice><abbr>Gent<unclear reason="ink blot" agent="ink">ile </unclear></abbr>
+                                    <expan>Gentile </expan></choice><choice><abbr>Sig<unclear reason="ink blot" agent="ink">na</unclear></abbr>
+                                    <expan>Signorina </expan></choice></addrLine>
+                                <lb xml:id="addr82_2" facs="#rigaddr82_2" />
+                                <addrLine>
+                                    <persName ref="#OT">Oliva Turtura</persName>
+                                </addrLine>
+                                <lb xml:id="addr82_3" facs="#rigaddr82_3" />
+                                <addrLine>Via Girolamo Ros<g>s</g>i 58</addrLine>
+                                <lb xml:id="addr82_4" facs="#rigaddr82_4" />
+                                <addrLine>
+                                    <placeName><hi rend="underline">Ravenna</hi></placeName>
+                                </addrLine>
+                            </address>
+                        </p>
+                        <closer>
+                            <lb xml:id="closer82_1" facs="#rigacloser82_1"/><salute>Affettuosissimi</salute>
+                            <lb xml:id="closer82_2" facs="#rigacloser82_2"/><signed><persName rend="underline" ref="#GC">Giovannino</persName></signed>
+                        </closer>
+                    </div>
+                    <div type="codStampa">
+                        <p>
+                            <lb xml:id="numFinale82_1" facs="#riganumFinale82_1"/><num>269</num>
+                        </p>
+                    </div>
+                    <div type="stampe_cartolina">
+                        <ab type="stampe" xml:id="stampafrasi82_1">
+                            <s facs="#rigastampafrasi82_1" xml:lang="it"><persName xml:id="CDA">De Agostini Carola</persName>: La rossa rossa.</s>
+                            <lb /><s facs="#rigastampafrasi82_2" xml:lang="fr">La rose rouge.</s>
+                            <lb /><s facs="#rigastampafrasi82_3" xml:lang="en">The red rose.</s>
+                        </ab>
+                    </div>
+                </div>
+            </body>
+        </text>
+        <facsimile>
+            <surfaceGrp>
+                <surface xml:id="fronte82">
+                    <graphic url='Cartoline/cartolina082.jpg' width='1037px' height='906px' />
+                </surface> 
+                <surface xml:id="retro82">
+                    <graphic url='Cartoline/cartolina082T.jpg' width='1666px' height='1047px' />
+                    <zone xml:id="riganum82_1" ulx="17" uly="72" lrx="157" lry="76" />
+                    <zone xml:id="rigastamp82_1" ulx="1301" uly="175" lrx="1664" lry="196" />
+                    <zone xml:id="rigaddr82_1" ulx="823" uly="378" lrx="1444" lry="404" />
+                    <zone xml:id="rigaddr82_2" ulx="845" uly="522" lrx="1578" lry="526" />
+                    <zone xml:id="rigaddr82_3" ulx="816" uly="626" lrx="1602" lry="630" />
+                    <zone xml:id="rigaddr82_4" ulx="863" uly="810" lrx="1596" lry="813" />
+                    <zone xml:id="rigadata82" ulx="743" uly="134" lrx="760" lry="813" />
+                    <zone xml:id="rigacloser82_1" ulx="572" uly="98" lrx="595" lry="721" />
+                    <zone xml:id="rigacloser82_2" ulx="406" uly="28" lrx="410" lry="860" />
+                    <zone xml:id="rigastampafrasi82_1" ulx="69" uly="867" lrx="560" lry="871" />
+                    <zone xml:id="rigastampafrasi82_2" ulx="359" uly="900" lrx="551" lry="904" />
+                    <zone xml:id="rigastampafrasi82_3" ulx="352" uly="937" lrx="536" lry="939" />
+                    <zone xml:id="riganumFinale82_1" ulx="773" uly="975" lrx="841" lry="979" />
+                </surface>
+            </surfaceGrp>
+        </facsimile>
+    </TEI>
+    
+</teiCorpus>
